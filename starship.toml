@@ -1,0 +1,25 @@
+# Shell prompt for remote dev envs: directory + git branch + UTC clock.
+# Installed to ~/.config/starship.toml by install.sh (remote envs only).
+add_newline = false
+format = "$directory$git_branch$time$character"
+
+[directory]
+truncation_length = 3
+style = "cyan"
+
+[git_branch]
+symbol = " "
+style = "magenta"
+
+# The time module is disabled by default and renders local time; enable it and
+# pin to UTC via utc_time_offset so envs in any region show the same clock.
+[time]
+disabled = false
+utc_time_offset = "+0"
+time_format = "%H:%M:%S"
+format = "[\\[$time UTC\\]]($style) "
+style = "dimmed white"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"

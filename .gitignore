@@ -1,0 +1,9 @@
+# Editor / OS cruft
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local, untracked machine-specific overrides
+local.sh
+*.local

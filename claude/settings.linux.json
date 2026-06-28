@@ -1,0 +1,13 @@
+{
+  "effortLevel": "high",
+  "fallbackModel": ["sonnet"],
+  "autoCompactEnabled": true,
+  "useAutoModeDuringPlan": true,
+  "skipWorkflowUsageWarning": true,
+  "remoteControlAtStartup": false,
+  "theme": "light",
+  "tui": "fullscreen",
+  "permissions": {
+    "allow": []
+  }
+}

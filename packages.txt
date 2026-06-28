@@ -1,0 +1,16 @@
+# nix packages installed into every env on boot (via install.sh).
+# One nixpkgs attribute name per line. '#' starts a comment. Edit freely.
+ripgrep
+fd
+fzf
+bat
+jq
+tree
+htop
+delta
+gh
+tmux
+btop
+starship
+zoxide
+atuin
